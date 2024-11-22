@@ -1,0 +1,68 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.imag1 {
+    -fx-background-position: center center ;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("../images/im22.png");
+     -fx-background-size: 100% 100%;
+}
+
+.imag2 {
+    -fx-background-position: center center ;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("../images/im33.png");
+     -fx-background-size: 100% 100%;
+}
+.imag3 {
+    -fx-background-position: center center ;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("../images/im44.png");
+     -fx-background-size: 100% 100%;
+}
+
+
+.card{
+    -fx-background-color:#fff;
+    -fx-background-radius: 10;
+    
+}
+
+.imag4 {
+    -fx-background-position: center center ;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("../images/title_1.png");
+     -fx-background-size: 100% 100%;
+}
+
+.imag5 {
+    -fx-background-position: center center ;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("../images/EM.jpg");
+     -fx-background-size: 100% 100%;
+}
+
+.imag6 {
+    -fx-background-position: center center ;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("../images/ph.png");
+     -fx-background-size: 100% 100%;
+}
+
+.imag7 {
+    -fx-background-position: center center ;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("../images/nv.png");
+     -fx-background-size: 100% 100%;
+}
+
+.imag8 {
+    -fx-background-position: center center ;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("../images/ta.jpg");
+     -fx-background-size: 100% 100%;
+}

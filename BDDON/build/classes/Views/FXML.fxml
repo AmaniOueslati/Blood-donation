@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="777.0" prefWidth="826.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FXMLController">
+   <children>
+      <VBox layoutX="578.0" layoutY="617.0" prefHeight="138.0" prefWidth="210.0" spacing="5.0" style="-fx-background-color: #ff6666;" styleClass="card" stylesheets="@fxml.css">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Qui peut donner son sang?">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="3.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="De manière générale, toute personne en bonne santé, âgée d’au moins 18 ans et pesant plus de 50 kg." wrappingWidth="170.63983154296875">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Text>
+         </children>
+         <padding>
+            <Insets bottom="2.0" left="10.0" right="2.0" top="6.0" />
+         </padding></VBox>
+      <VBox layoutX="578.0" layoutY="387.0" prefHeight="147.0" prefWidth="210.0" spacing="5.0" style="-fx-background-color: #ff6666;" styleClass="card" stylesheets="@fxml.css">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pourquoi donner son sang?">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="3.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Donner son sang, c'est sauver une vie. La transfusion sanguine est indispensable et vitale dans le traitement de nombreuses pathologies." wrappingWidth="156.55078125">
+               <VBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Text>
+         </children>
+         <padding>
+            <Insets bottom="2.0" left="10.0" right="2.0" top="6.0" />
+         </padding></VBox>
+      <VBox layoutX="574.0" layoutY="183.0" prefHeight="131.0" prefWidth="210.0" spacing="5.0" style="-fx-background-color: #ff6666;" styleClass="card" stylesheets="@fxml.css">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Comment donner son sang?">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="4.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Principe : on prélève de 420 à 480 ml de sang, en fonction du poids du donneur." wrappingWidth="187.30853271484375">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Durée : l’acte lui-même dure 8 à 10 minutes." wrappingWidth="187.3714599609375">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Text>
+         </children>
+         <padding>
+            <Insets bottom="2.0" left="10.0" right="2.0" top="6.0" />
+         </padding></VBox>
+      <Pane layoutX="650.0" layoutY="328.0" prefHeight="48.0" prefWidth="48.0" styleClass="imag2">
+         <stylesheets>
+            <URL value="@a%20propos.css" />
+            <URL value="@fxml.css" />
+         </stylesheets></Pane>
+      <Pane layoutX="655.0" layoutY="561.0" prefHeight="48.0" prefWidth="48.0" styleClass="imag1">
+         <stylesheets>
+            <URL value="@a%20propos.css" />
+            <URL value="@fxml.css" />
+         </stylesheets>
+      </Pane>
+      <Pane layoutY="2.0" prefHeight="116.0" prefWidth="367.0" styleClass="imag4" stylesheets="@fxml.css" />
+      <Pane layoutX="494.0" layoutY="2.0" prefHeight="138.0" prefWidth="326.0">
+         <children>
+            <Text fill="#161718" layoutX="77.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :  centredonsang@gmail.com" wrappingWidth="234.146484375">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Pane layoutX="44.0" layoutY="44.0" prefHeight="32.0" prefWidth="33.0" styleClass="imag5" stylesheets="@fxml.css" />
+            <Pane layoutX="51.0" layoutY="27.0" prefHeight="12.0" prefWidth="19.0" styleClass="imag6" stylesheets="@fxml.css" />
+            <Text fill="#187bdf" layoutX="87.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="234.146484375">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#202020" layoutX="77.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact :  +21671561920 " wrappingWidth="234.146484375">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Pane layoutX="51.0" layoutY="81.0" prefHeight="19.0" prefWidth="82.0" styleClass="imag7" stylesheets="@fxml.css" />
+            <Text fill="#548977" layoutX="139.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+21629455622" wrappingWidth="129.7651824951172">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="650.0" layoutY="123.0" prefHeight="48.0" prefWidth="48.0" styleClass="imag3">
+         <stylesheets>
+            <URL value="@a%20propos.css" />
+            <URL value="@fxml.css" />
+         </stylesheets>
+      </Pane>
+      <VBox layoutX="-4.0" layoutY="147.0" prefHeight="634.0" prefWidth="289.0" styleClass="primary_color" stylesheets="@dashboard_1.css" />
+      <HBox layoutX="30.0" layoutY="223.0" prefHeight="478.0" prefWidth="470.0" styleClass="imag8" stylesheets="@fxml.css" />
+   </children>
+</AnchorPane>

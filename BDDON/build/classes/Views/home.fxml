@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="controleur.HomeController">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="191.0" style="-fx-background-color: #373737;" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane layoutY="-1.0" prefHeight="62.0" prefWidth="192.0" style="-fx-background-color: #850606;" />
+            <Button layoutX="-1.0" layoutY="71.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #373737;" text="Receveur" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="220.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="5.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #373737;" text="Donneur" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="160.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" layoutX="19.0" layoutY="73.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #373737;" text="Acceuil" textFill="WHITE" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="100.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="14.0" layoutY="266.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #373737;" text="Stock_du_sang" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="270.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="30.0" layoutY="260.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #373737;" text="rendez_vous" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="329.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+           
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

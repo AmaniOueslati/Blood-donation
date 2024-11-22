@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="643.0" prefWidth="1132.0" stylesheets="@tableview.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tableView.TableViewController">
+   <children>
+      <TableView fx:id="donneursTable" layoutX="326.0" layoutY="90.0" prefHeight="521.0" prefWidth="756.0" style="-fx-alignement: center;" stylesheets="@tableview.css">
+        <columns>
+          <TableColumn fx:id="idCol" maxWidth="70.0" prefWidth="51.99999809265137" text="Id" />
+          <TableColumn fx:id="NomCol" maxWidth="118.39997100830078" prefWidth="77.5999755859375" text="Nom" />
+            <TableColumn fx:id="PrenomCol" maxWidth="123.99996948242188" prefWidth="93.59994506835938" text="Prenom" />
+            <TableColumn fx:id="SanCol" maxWidth="102.4000244140625" prefWidth="96.79998779296875" text="typeSang" />
+            <TableColumn fx:id="EmailCol" maxWidth="400.0" prefWidth="148.79998779296875" text="Email" />
+            <TableColumn fx:id="OpCol" maxWidth="426.39996337890625" minWidth="-Infinity" prefWidth="420.0" />
+        </columns>
+         <styleClass>
+            <String fx:value="white-background" />
+            <String fx:value="table-cell" />
+            <String fx:value="table-row-cell" />
+            <String fx:value="table-view" />
+            <String fx:value="transparent-table-view" />
+            <String fx:value="transparent" />
+         </styleClass>
+      </TableView>
+      <Pane layoutX="26.0" layoutY="21.0" prefHeight="91.0" prefWidth="262.0" />
+      <BorderPane prefHeight="510.0" prefWidth="232.0">
+         <top>
+            
+             <VBox prefHeight="643.0" prefWidth="250.0" spacing="5.0" style="-fx-background-color: #ffff;" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="TOP_CENTER" prefHeight="24.0" prefWidth="254.0" stylesheets="@dashboard.css">
+                     <children>
+                        <ImageView fitHeight="49.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/imagesSang.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="40.0" prefWidth="133.0" text="    PARTAGEZ" textFill="#3487f4">
+                           <font>
+                              <Font name="Tahoma" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <styleClass>
+                        <String fx:value="right-side-border" />
+                        <String fx:value="white-background" />
+                     </styleClass>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <Line endX="869.5595703125" endY="58.207550048828125" startX="671.066650390625" startY="58.00044250488281" stroke="#bc2f2f" />
+                  <Label prefHeight="32.0" prefWidth="184.0" text="           DONNEZ" textFill="#3487f4">
+                     <font>
+                        <Font name="Tahoma" size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="30.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <VBox alignment="TOP_CENTER" prefHeight="483.0" prefWidth="250.0" spacing="30.0">
+                     <children>
+                        <HBox fx:id="Don" layoutX="10.0" layoutY="72.0" prefHeight="57.0" prefWidth="250.0" spacing="10.0" stylesheets="@tableview.css">
+                           <children>
+                              <ImageView fitHeight="43.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/images.png" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="donButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="155.0" stylesheets="@tableview.css" text="Donneurs">
+                                 <font>
+                                    <Font name="Rockwell Nova Bold" size="17.0" />
+                                 </font>
+                                 <styleClass>
+                                    <String fx:value="transparent" />
+                                    <String fx:value="transparent-button" />
+                                 </styleClass>
+                              </Button>
+                           </children>
+                           <opaqueInsets>
+                              <Insets left="2.0" />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="20.0" top="5.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="41.0" prefHeight="31.0" prefWidth="250.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="23.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/1862231-200.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets top="5.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Button fx:id="RecButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="145.0" text="Receveurs">
+                                 <font>
+                                    <Font name="Rockwell Nova Bold" size="17.0" />
+                                 </font>
+                                 <styleClass>
+                                    <String fx:value="transparent" />
+                                    <String fx:value="transparent-button" />
+                                 </styleClass>
+                                 <stylesheets>
+                                    <URL value="@dashboard.css" />
+                                    <URL value="@tableview.css" />
+                                 </stylesheets>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="72.0" prefHeight="31.0" prefWidth="250.0" spacing="20.0" stylesheets="@tableview.css">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/images%20(1).png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets top="5.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Button fx:id="StockButton" mnemonicParsing="false" prefHeight="39.0" prefWidth="98.0" styleClass="transparent" stylesheets="@dashboard.css" text="Stocks">
+                                 <font>
+                                    <Font name="Rockwell Nova Bold" size="18.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <styleClass>
+                              <String fx:value="transparent" />
+                              <String fx:value="transparent-button" />
+                           </styleClass>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="104.0" prefHeight="30.0" prefWidth="242.0">
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/1862231-200.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets top="5.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Label prefHeight="22.0" prefWidth="142.0">
+                                 <font>
+                                    <Font name="Rockwell Nova Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="RdvButton" mnemonicParsing="false" prefHeight="38.0" prefWidth="363.0" text="Rendez-vous">
+                                 <font>
+                                    <Font name="Rockwell Nova Bold" size="18.0" />
+                                 </font>
+                                 <stylesheets>
+                                    <URL value="@dashboard.css" />
+                                    <URL value="@tableview.css" />
+                                 </stylesheets>
+                                 <styleClass>
+                                    <String fx:value="transparent" />
+                                    <String fx:value="transparent-button" />
+                                 </styleClass>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="135.0" prefHeight="31.0" prefWidth="250.0">
+                           <children>
+                              <ImageView fitHeight="38.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/images%20(1).png" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="stockButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" text="Stocks">
+                                 <font>
+                                    <Font name="Rockwell Nova Bold" size="18.0" />
+                                 </font>
+                                 <stylesheets>
+                                    <URL value="@dashboard.css" />
+                                    <URL value="@tableview.css" />
+                                 </stylesheets>
+                                 <styleClass>
+                                    <String fx:value="transparent" />
+                                    <String fx:value="transparent-button" />
+                                 </styleClass>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="166.0" prefHeight="31.0" prefWidth="250.0">
+                           <children>
+                              <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/3119338.png" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="NotifButton" mnemonicParsing="false" prefHeight="38.0" prefWidth="191.0" text="Notifications">
+                                 <font>
+                                    <Font name="Rockwell Nova Bold" size="18.0" />
+                                 </font>
+                                 <stylesheets>
+                                    <URL value="@dashboard.css" />
+                                    <URL value="@tableview.css" />
+                                 </stylesheets>
+                                 <styleClass>
+                                    <String fx:value="transparent" />
+                                    <String fx:value="transparent-button" />
+                                 </styleClass>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets top="55.0" />
+                     </padding>
+                     <stylesheets>
+                        <URL value="@dashboard.css" />
+                        <URL value="@tableview.css" />
+                     </stylesheets>
+                     <styleClass>
+                        <String fx:value="right-side-border" />
+                        <String fx:value="white-background" />
+                     </styleClass>
+                  </VBox>
+                  <Line endX="869.5595703125" endY="58.207550048828125" layoutX="-660.0" layoutY="-7.0" startX="671.066650390625" startY="58.00044250488281" stroke="#bc2f2f" />
+               </children>
+            </VBox>
+         </top></BorderPane>
+      <Text fill="#f25e4e" layoutX="239.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REJOIGNEZ-NOUS, DEVENEZ DONNEUR !" wrappingWidth="380.00002441406247">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <FontAwesomeIcon glyphName="USER_PLUS" layoutX="718.0" layoutY="40.0" onMouseClicked="#getAddView" size="30" text="" wrappingWidth="80.79998779296875" />
+      <FontAwesomeIcon glyphName="REFRESH" layoutX="781.0" layoutY="40.0" onMouseClicked="#refreshView" selectionFill="#8e4b4b" size="30" text="" wrappingWidth="98.39999999999998" />
+      <FontAwesomeIcon glyphName="PRINT" layoutX="837.0" layoutY="40.0" onMouseClicked="#print" selectionFill="#8e4b4b" size="30" wrappingWidth="18.399948120117188" />
+      <TextField layoutX="917.0" layoutY="54.0" prefHeight="25.0" prefWidth="201.0" />
+      <Label layoutX="917.0" layoutY="13.0" prefHeight="30.0" prefWidth="106.0" text="Type_sang :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   
+   </children>
+   <styleClass>
+      <String fx:value="mainFxmlClass" />
+      <String fx:value="image_backgroud" />
+      <String fx:value="primary_color" />
+   </styleClass>
+</AnchorPane>

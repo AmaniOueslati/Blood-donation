@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="730.0" prefWidth="1278.0" styleClass="title" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ReceveurController">
+    
+   <children>
+    <VBox fx:id="A" prefHeight="730.0" prefWidth="266.0" style="-fx-background-color: #ffff;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="730.0" prefWidth="286.0" spacing="30.0" style="-fx-background-color: #fff;" styleClass="right-side-border" stylesheets="@dashboard.css">
+               <children>
+                  <HBox prefHeight="106.0" prefWidth="263.0" spacing="5.0" styleClass="title" stylesheets="@dashboard.css">
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets top="25.0" />
+                     </VBox.margin></HBox>
+                  <HBox layoutX="10.0" layoutY="72.0" prefHeight="34.0" prefWidth="250.0" spacing="10.0">
+                     <children>
+                        <ImageView fitHeight="23.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/images.png" />
+                           </image>
+                        </ImageView>
+                        <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="155.0" styleClass="transparent" stylesheets="@dashboard.css" text="Donneurs">
+                           <font>
+                              <Font name="Rockwell Nova Bold" size="17.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <opaqueInsets>
+                        <Insets left="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="20.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="41.0" prefHeight="31.0" prefWidth="250.0" spacing="20.0">
+                     <children>
+                        <ImageView fitHeight="23.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/1862231-200.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="145.0" styleClass="transparent" stylesheets="@dashboard.css" text="Receveurs">
+                           <font>
+                              <Font name="Rockwell Nova Bold" size="17.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="72.0" prefHeight="31.0" prefWidth="250.0" spacing="20.0">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/images%20(1).png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="98.0" styleClass="transparent" stylesheets="@dashboard.css" text="Stocks">
+                           <font>
+                              <Font name="Rockwell Nova Bold" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="104.0" prefHeight="30.0" prefWidth="242.0">
+                     <children>
+                        <ImageView fitHeight="24.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/1862231-200.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <Label prefHeight="22.0" prefWidth="142.0">
+                           <font>
+                              <Font name="Rockwell Nova Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="363.0" styleClass="transparent" stylesheets="@dashboard.css" text="Rendez-vous">
+                           <font>
+                              <Font name="Rockwell Nova Bold" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="135.0" prefHeight="31.0" prefWidth="250.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="166.0" prefHeight="31.0" prefWidth="250.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets right="2.0" />
+               </VBox.margin>
+            </VBox>
+         </children>
+      </VBox>
+    
+    
+    
+    
+      <TableView fx:id="tab" layoutX="583.0" layoutY="143.0" prefHeight="551.0" prefWidth="674.0" stylesheets="@Receveur.css">
+        <columns>
+          <TableColumn fx:id="Nom" prefWidth="75.0" text="Nom" />
+          <TableColumn fx:id="Prenom" prefWidth="56.7999267578125" text="Prenom" />
+            <TableColumn fx:id="groupesanguin" prefWidth="111.199951171875" text="groupesanguin" />
+            <TableColumn fx:id="email" prefWidth="200.0" text="email" />
+        </columns>
+         <styleClass>
+            <String fx:value="table-cell" />
+            <String fx:value="table-row-cell" />
+            <String fx:value="table-view" />
+            <String fx:value="transparent-table-view" />
+         </styleClass>
+      </TableView>
+      <Pane layoutX="403.0" prefHeight="90.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="-134.0" layoutY="14.0" prefHeight="32.0" prefWidth="544.0" text="EVERYONE COULD BE A HERO ; DONATE BLLOD" textFill="#0c5fed">
+               <font>
+                  <Font name="Arial Bold" size="22.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <VBox layoutX="741.0" layoutY="63.0" prefHeight="64.0" prefWidth="98.0" spacing="6.0" style="-fx-background-color: #ff6666;" styleClass="card" stylesheets="@dashboard.css">
+         <padding>
+            <Insets bottom="5.0" right="2.0" top="20.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets top="5.0" />
+         </opaqueInsets>
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleResetButton" prefHeight="38.0" prefWidth="194.0" text="reset">
+               <stylesheets>
+                  <URL value="@../javafxapplication9/interf1.css" />
+                  <URL value="@../tableView/rdv.css" />
+                  <URL value="@dashboard.css" />
+               </stylesheets>
+               <styleClass>
+                  <String fx:value="button-connect" />
+                  <String fx:value="transparent-button" />
+                  <String fx:value="transparent-button" />
+               </styleClass>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="1022.0" layoutY="69.0" prefHeight="56.0" prefWidth="96.0" spacing="6.0" style="-fx-background-color: #ff6666;" styleClass="card" stylesheets="@dashboard.css">
+         <padding>
+            <Insets bottom="5.0" right="2.0" top="20.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets top="5.0" />
+         </opaqueInsets>
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleModifierButto" prefHeight="49.0" prefWidth="124.0" text="modifier">
+               <stylesheets>
+                  <URL value="@../javafxapplication9/interf1.css" />
+                  <URL value="@../tableView/rdv.css" />
+                  <URL value="@dashboard.css" />
+               </stylesheets>
+               <styleClass>
+                  <String fx:value="button-connect" />
+                  <String fx:value="transparent-button" />
+                  <String fx:value="transparent-button" />
+               </styleClass>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="1162.0" layoutY="69.0" prefHeight="63.0" prefWidth="94.0" spacing="6.0" style="-fx-background-color: #ff6666;" styleClass="card" stylesheets="@dashboard.css">
+         <padding>
+            <Insets bottom="5.0" right="2.0" top="20.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets top="5.0" />
+         </opaqueInsets>
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleAjouterButto" prefHeight="30.0" prefWidth="112.0" text="ajouter">
+               <stylesheets>
+                  <URL value="@../javafxapplication9/interf1.css" />
+                  <URL value="@../tableView/rdv.css" />
+                  <URL value="@dashboard.css" />
+               </stylesheets>
+               <styleClass>
+                  <String fx:value="button-connect" />
+                  <String fx:value="transparent-button" />
+                  <String fx:value="transparent-button" />
+               </styleClass>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="878.0" layoutY="63.0" prefHeight="63.0" prefWidth="108.0" spacing="6.0" style="-fx-background-color: #ff6666;" styleClass="card" stylesheets="@dashboard.css">
+         <padding>
+            <Insets bottom="5.0" right="2.0" top="20.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets top="5.0" />
+         </opaqueInsets>
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleSupprimerButto" prefHeight="26.0" prefWidth="112.0" styleClass="transparent-button" stylesheets="@dashboard.css" text="supprimer" />
+         </children>
+      </VBox>
+      <VBox layoutX="333.0" layoutY="223.0" prefHeight="252.0" prefWidth="219.0" spacing="6.0" styleClass="card" stylesheets="@Receveur.css">
+         <padding>
+            <Insets bottom="6.0" left="12.0" right="12.0" top="30.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets top="5.0" />
+         </opaqueInsets>
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleSupprimerButto" prefHeight="38.0" prefWidth="177.0" styleClass="transparent-button" stylesheets="@Receveur.css" text="Recherche" textFill="#2b2929">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets right="2.0" />
+               </VBox.margin></Button>
+            <TextField fx:id="txtemaill" prefHeight="26.0" prefWidth="191.0" promptText="Email">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="txprenom" prefHeight="30.0" prefWidth="222.0" promptText="Prenom" />
+            <TextField fx:id="txnom" prefHeight="26.0" prefWidth="222.0" promptText="Nom" />
+            <TextField fx:id="txttype" prefHeight="26.0" prefWidth="222.0" promptText="Type du sang" />
+         </children>
+      </VBox>
+      <Label layoutX="275.0" layoutY="45.0" prefHeight="24.0" prefWidth="263.0" text="ENSEMBLE,SAUVONS DES VIES !" textFill="#ff6666">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <VBox layoutX="591.0" layoutY="63.0" prefHeight="64.0" prefWidth="108.0" spacing="6.0" style="-fx-background-color: #ff6666;" styleClass="card" stylesheets="@dashboard.css">
+         <padding>
+            <Insets bottom="5.0" right="2.0" top="17.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets top="5.0" />
+         </opaqueInsets>
+         <children>
+            <Button mnemonicParsing="false" onAction="#handelchercherbutton" prefHeight="36.0" prefWidth="179.0" stylesheets="@dashboard.css" text="filtrer">
+               <styleClass>
+                  <String fx:value="transparent-button" />
+                  <String fx:value="transparent-button" />
+               </styleClass>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+   <stylesheets>
+      <URL value="@../javafxapplication9/interf1.css" />
+      <URL value="@Receveur.css" />
+   </stylesheets>
+</AnchorPane>

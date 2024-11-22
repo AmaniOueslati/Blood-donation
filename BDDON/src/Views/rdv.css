@@ -1,0 +1,49 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.primary_color{
+    -fx-background-color: #EFF2F6;
+}
+.card{
+    -fx-background-color:#fff;
+    -fx-background-radius: 10;
+    
+}
+
+.search-container{
+    -fx-border-color: #6F6F6F;
+   
+}
+.transparent{
+    -fx-background-color:rgba(0,0,0,0);
+}
+
+.image_backgroud {
+    -fx-background-image: url('../images/SANG1.0.jpg');
+     -fx-background-size: 100% 100%; 
+    -fx-background-repeat: no-repeat;
+}
+
+.image_backgroud2 {
+    -fx-background-image: url('../images/13.jpg');
+     -fx-background-size: 100% 100%; 
+    -fx-background-repeat: no-repeat;
+}
+
+.element-avec-opacity {
+    -fx-background-color: #F0F8FF; /* Rouge en format hexadécimal */
+    -fx-opacity: 0.5; /* 50% de transparence pour l'élément et tous ses enfants */
+}
+
+.transparent-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #000; /* You can add a border for better visibility */
+    color: #000; /* Set text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer; /* Add cursor style to indicate interactivity */
+}

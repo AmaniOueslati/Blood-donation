@@ -1,0 +1,48 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 8, 2023, 5:02:43 PM
+    Author     : wesla
+*/
+
+
+.title{
+    
+  -fx-background-image: url('../images/EF.png');
+    -fx-background-size: 100% 100%;  
+    
+    
+}
+
+.card {
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Setting alpha to 0.5 for 50% transparency */
+    -fx-background-radius: 10;
+}
+
+
+
+.transparent-table-view {
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+}
+
+.transparent-table-view .table-view {
+    -fx-background-color: transparent;
+}
+
+.transparent-table-view .table-row-cell {
+    -fx-background-color: transparent;
+}
+
+.transparent-table-view .table-cell {
+    -fx-background-color: transparent;
+}
+
+.transparent-button {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-border: 1px solid #000; /* You can add a border for better visibility */
+    
+    -fx-padding: 10px 20px; /* Adjust padding as needed */
+    -fx-cursor: pointer; /* Add cursor style to indicate interactivity */
+}

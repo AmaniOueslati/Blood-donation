@@ -1,0 +1,107 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+/* styles.css */
+
+.table-view {
+    -fx-background-color: #f4f4f4;
+}
+
+.table-view .column-header {
+    -fx-text-fill: #333;
+    -fx-background-color: #e0e0e0;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-cell {
+    -fx-padding: 5;
+    -fx-text-fill: #333;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+
+.white-background{
+    -fx-background-color: #fff; 
+}
+.right-side-border{
+    -fx-border-color: #6F6F6F;
+    -fx-border-width:  0 1 0 0;
+}
+.primary_color{
+    -fx-background-color: #EFF2F6;
+}
+.search-container{
+    -fx-border-color: #6F6F6F;
+    -fx-border-radius: 30;
+}
+.transparent{
+    -fx-background-color:rgba(0,0,0,0);
+}
+
+.primary_color{
+    -fx-background-color: #EFF2F6;
+}
+
+.card{
+    -fx-background-color:#fff;
+    -fx-background-radius: 10;
+    
+}
+
+.image_backgroud {
+    -fx-background-image: url('../images/AB.jpg');
+}
+
+.img{
+    
+     -fx-background-image: url('../images/13.jpg');
+      -fx-background-size: 89% 70%; 
+    -fx-background-repeat: no-repeat;
+}
+
+.transparent-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #000; /* You can add a border for better visibility */
+    color: #000; /* Set text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer; /* Add cursor style to indicate interactivity */
+}
+
+.transparent-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #000; /* You can add a border for better visibility */
+    color: #000; /* Set text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer; /* Add cursor style to indicate interactivity */
+}
+
+.transparent-table-view {
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+}
+
+.transparent-table-view .table-view {
+    -fx-background-color: transparent;
+}
+
+.transparent-table-view .table-row-cell {
+    -fx-background-color: transparent;
+}
+
+.transparent-table-view .table-cell {
+    -fx-background-color: transparent;
+}

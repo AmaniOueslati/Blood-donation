@@ -1,0 +1,124 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 nov. 2023, 20:59:05
+    Author     : amena
+*/
+
+.parent {-fx-background-color: transparent;}
+.pane {-fx-background-color:  #008ae6;
+     
+}
+.white_pane{
+    
+    -fx-background-size: 324 381 ;
+    -fx-background-position: center center ;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("/images/back.jpg");
+}
+.transparent-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #000; /* You can add a border for better visibility */
+    color: #000; /* Set text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer; /* Add cursor style to indicate interactivity */
+}
+
+
+
+.trans_btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: whitesmoke;
+}
+
+
+.conn_btn {
+    -fx-background-color:  #850606 ;
+}
+
+/* styles.css */
+
+.button-connect {
+    -fx-background-color: black;
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-size: 14px;  /* Taille de la police */
+    -fx-background-radius: 5, 5, 5, 5; /* Radius des coins (top-left, top-right, bottom-right, bottom-left) */
+}
+
+.button-connect:hover {
+    -fx-background-color: darkgray; /* Couleur au survol */
+}
+
+.label-style {
+    -fx-font-size: 16px;    /* Taille de la police */
+    -fx-text-fill: #ffffff;  /* Couleur du texte (blanc) */
+    -fx-font-weight: bold;   /* Gras */
+}
+.table_view {
+    -fx-background-color: transparent;
+    
+}
+
+.table_view:focused {
+    -fx-background-color: transparent;
+    
+}
+
+.table_view.colum-header-background{
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+    
+}
+
+.table_view.colum-header-background.label-style{
+   -fx-background-color: transparent;
+   -fx-text-Color: white;
+    
+}
+
+.table-view {
+    -fx-background-color: lightgray;
+}
+.table-view.colum-header{-fx-background-color: transparent;}
+.table-view.table-cell{-fx-text-fill: white; }
+.table-row-cell{-fx-background-color: -fx-table-cell-border-color, #33698F;
+-fx-background-insets :0,0.0 1 0;
+-fx-padding :0.0em;}
+/* TextField style */
+
+
+.image {
+    -fx-background-position: center center ;
+    -fx-background-color: #FFFFFF;
+    -fx-background-size: 182 122 ;
+    -fx-background-image: url("/image/aa.png");
+}
+
+.imag {
+    -fx-background-position: center center ;
+    -fx-background-color: #FFFFFF;
+    -fx-background-size: 178 136 ;
+    -fx-background-image: url("/image/cc.jpg");
+}
+
+.back_tab{
+    
+    
+    -fx-background-image: url("/image/donner.jpg");
+}
+
+.im {
+    
+    -fx-background-position: center center ;
+    -fx-background-size: 643 439 ;
+    -fx-background-image: url("/image/ba.jpg");
+}
+
+    .textField{ -fx-border-color: black;
+               -fx-border-width: 0 0 1 0;
+               -fx-padding: 5px; 
+    }
+               
+               
+        
